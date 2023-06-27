@@ -15,7 +15,16 @@ class ViewController: UIViewController {
     }
     
     @IBAction func unwindToHomeVC(sender: UIStoryboardSegue) {
+        print("on appear operation")
         
+    }
+    
+    @IBAction func goToSwiftuiView(_ sender: Any) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let detailVC = storyboard.instantiateViewController(withIdentifier: "swiftUIVIew")
+            detailVC.modalPresentationStyle = .fullScreen // Set the presentation style to full-screen
+            present(detailVC, animated: true, completion: nil)
+       
     }
 }
 
