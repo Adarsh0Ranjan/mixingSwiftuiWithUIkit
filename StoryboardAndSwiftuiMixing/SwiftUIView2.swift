@@ -9,6 +9,7 @@ import SwiftUI
 
 struct SwiftUIView2: View {
     @Environment(\.presentationMode) var presentationMode
+
     var body: some View {
         NavigationView {
             VStack {
@@ -16,15 +17,29 @@ struct SwiftUIView2: View {
                 Button("Dismiss") {
                     presentationMode.wrappedValue.dismiss()
                 }
-                
+
                 NavigationLink(destination: NewView()) {
                     Text("Go to New View")
                 }
             }
+            .navigationBarTitle("SwiftUI View")
+            .navigationBarBackButtonHidden(true)
+            .navigationBarItems(leading: backButton)
         }
-        .navigationBarBackButtonHidden(false)
+    }
+
+    private var backButton: some View {
+        Button(action: {
+            presentationMode.wrappedValue.dismiss()
+        }) {
+            Image(systemName: "chevron.left")
+                .imageScale(.large)
+                .foregroundColor(.blue)
+        }
     }
 }
+
+
 
 
 struct SwiftUIView2_Previews: PreviewProvider {

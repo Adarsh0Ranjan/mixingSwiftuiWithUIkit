@@ -17,7 +17,6 @@
 		417200192A3B3AC900EBA9CC /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417200182A3B3AC900EBA9CC /* SwiftUIView.swift */; };
 		4172001B2A3B3C0300EBA9CC /* SwifUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4172001A2A3B3C0200EBA9CC /* SwifUIViewController.swift */; };
 		4172001D2A3B3EC500EBA9CC /* SwiftUIView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4172001C2A3B3EC500EBA9CC /* SwiftUIView2.swift */; };
-		4172001F2A3B3F1700EBA9CC /* SwiftUI2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4172001E2A3B3F1700EBA9CC /* SwiftUI2ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,7 +31,6 @@
 		417200182A3B3AC900EBA9CC /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		4172001A2A3B3C0200EBA9CC /* SwifUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwifUIViewController.swift; sourceTree = "<group>"; };
 		4172001C2A3B3EC500EBA9CC /* SwiftUIView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView2.swift; sourceTree = "<group>"; };
-		4172001E2A3B3F1700EBA9CC /* SwiftUI2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI2ViewController.swift; sourceTree = "<group>"; };
 		4172FFFF2A3B238400EBA9CC /* StoryboardAndSwiftuiMixing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoryboardAndSwiftuiMixing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -68,7 +66,6 @@
 				417200162A3B319300EBA9CC /* UIKitViewController.swift */,
 				417200182A3B3AC900EBA9CC /* SwiftUIView.swift */,
 				4172001C2A3B3EC500EBA9CC /* SwiftUIView2.swift */,
-				4172001E2A3B3F1700EBA9CC /* SwiftUI2ViewController.swift */,
 				4172001A2A3B3C0200EBA9CC /* SwifUIViewController.swift */,
 			);
 			path = StoryboardAndSwiftuiMixing;
@@ -156,7 +153,6 @@
 				417200072A3B238400EBA9CC /* ViewController.swift in Sources */,
 				417200172A3B319300EBA9CC /* UIKitViewController.swift in Sources */,
 				417200032A3B238400EBA9CC /* AppDelegate.swift in Sources */,
-				4172001F2A3B3F1700EBA9CC /* SwiftUI2ViewController.swift in Sources */,
 				4172001B2A3B3C0300EBA9CC /* SwifUIViewController.swift in Sources */,
 				4172001D2A3B3EC500EBA9CC /* SwiftUIView2.swift in Sources */,
 				417200052A3B238400EBA9CC /* SceneDelegate.swift in Sources */,

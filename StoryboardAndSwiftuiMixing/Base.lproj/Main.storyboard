@@ -135,32 +135,6 @@
             </objects>
             <point key="canvasLocation" x="1104.5801526717557" y="-13.380281690140846"/>
         </scene>
-        <!--SwiftUI2 View Controller-->
-        <scene sceneID="OEw-up-BsA">
-            <objects>
-                <viewController storyboardIdentifier="swiftUIVIew" id="L65-gi-its" customClass="SwiftUI2ViewController" customModule="StoryboardAndSwiftuiMixing" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="4Dp-cD-OgI">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="swiftUIVIew" translatesAutoresizingMaskIntoConstraints="NO" id="AxO-5t-ryq">
-                                <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                            </view>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="M3n-Ka-8rU"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="AbV-68-faz"/>
-                    <connections>
-                        <outlet property="childViiew" destination="AxO-5t-ryq" id="9I2-D5-cjI"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="M2D-vh-RIP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-396.18320610687022" y="750.70422535211276"/>
-        </scene>
     </scenes>
     <resources>
         <systemColor name="systemBackgroundColor">

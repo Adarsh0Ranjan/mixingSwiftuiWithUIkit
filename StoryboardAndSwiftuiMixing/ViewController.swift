@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SwiftUI
 
 class ViewController: UIViewController {
     
@@ -20,10 +21,10 @@ class ViewController: UIViewController {
     }
     
     @IBAction func goToSwiftuiView(_ sender: Any) {
-        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-            let detailVC = storyboard.instantiateViewController(withIdentifier: "swiftUIVIew")
-            detailVC.modalPresentationStyle = .fullScreen // Set the presentation style to full-screen
-            present(detailVC, animated: true, completion: nil)
+        let swiftUIView = SwiftUIView2() // Replace "SwiftUIView" with the name of your SwiftUI view
+        let hostingController = UIHostingController(rootView: swiftUIView)
+        hostingController.modalPresentationStyle = .fullScreen // Set the presentation style to full-screen
+        present(hostingController, animated: true, completion: nil)
        
     }
 }
