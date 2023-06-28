@@ -33,10 +33,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EcW-xQ-kSb">
-                                <rect key="frame" x="159" y="505" width="75" height="35"/>
+                                <rect key="frame" x="97" y="505" width="200" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Swiftui Navigation view"/>
                                 <connections>
                                     <action selector="goToSwiftuiView:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SzT-7a-xBm"/>
                                 </connections>
