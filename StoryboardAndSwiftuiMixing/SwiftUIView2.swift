@@ -32,9 +32,13 @@ struct SwiftUIView2: View {
         Button(action: {
             presentationMode.wrappedValue.dismiss()
         }) {
-            Image(systemName: "chevron.left")
-                .imageScale(.large)
-                .foregroundColor(.blue)
+            HStack {
+                Image(systemName: "chevron.left")
+                    .imageScale(.large)
+                    .foregroundColor(.blue)
+                Text("Back")
+            }
+            
         }
     }
 }
